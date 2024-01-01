@@ -20,7 +20,7 @@ var scriptElement =
 var baseUrl =
     scriptElement !== null
         ? scriptElement.getAttribute("src").replace(/\/frozen_cookies\.js$/, "")
-        : "https://github.erbkaiser.com/FrozenCookies/";
+        : "https://https://raw.githubusercontent.com/applmac/FrozenCookies/main/";
 var FrozenCookies = {
     baseUrl: baseUrl,
     branch: "erb-",
